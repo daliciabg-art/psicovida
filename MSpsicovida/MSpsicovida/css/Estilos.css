@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#ffffff;
+    text-align:center;
+}
+
+/* encabezado azul */
+header{
+    background:#1e3a8a;
+    padding:20px;
+}
+
+/* logo */
+.logo{
+    width:120px;
+}
+
+/* menú */
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#facc15; /* amarillo */
+}
+
+/* secciones */
+section{
+    margin:40px;
+}
+
+/* imagen */
+img{
+    width:70%;
+    border-radius:15px;
+}
+
+/* video */
+video{
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* pie */
+footer{
+    background:#1e3a8a;
+    color:white;
+    padding:15px;
+}
+form{
+    background:white;
+    width:400px;
+    margin:30px auto;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.15);
+}
+
+input, select{
+    width:90%;
+    padding:8px;
+    margin-top:5px;
+}
